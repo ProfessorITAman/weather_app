@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="country_list">
+        <item>Bishkek</item>
+        <item>Dubai</item>
+        <item>Moscow</item>
+    </array>
+
+    
+</resources>

@@ -8,7 +8,6 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 
 object RetroFitClient {
-    val name = "MyRetrofitClient"
     //https://api.weatherapi.com/v1/current.json?key=8addd2cf419f4a1a9e663340251304&q=Bishkek
     ///BASE URL https://api.weatherapi.com/v1/
     // endpoint == current.json
@@ -24,6 +23,7 @@ object RetroFitClient {
     private val httpClient = OkHttpClient.Builder()
         .addInterceptor(loggingInterceptor)
         .build()
+
 
     private val json = Json {
         ignoreUnknownKeys = true
